@@ -1,5 +1,5 @@
 'use strict';
-var SearchCepPage = require('../pages/SearchCepPage.js');
+import SearchCepPage from '../pages/SearchCepPage.js';
 
 describe('Cenarios de busca por CEP', function() {
 
