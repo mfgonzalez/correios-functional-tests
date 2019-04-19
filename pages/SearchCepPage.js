@@ -32,5 +32,9 @@ var SearchCepPage = function() {
         searchButton.click();
     }
 
+    this.mandatoryAddress = function() {
+        return browser.driver.switchTo().alert().getText();
+    }
+
 }
 module.exports = SearchCepPage;
