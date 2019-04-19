@@ -1,14 +1,18 @@
 'use strict';
 
 var SearchCepPage = require('../pages/SearchCepPage.js');
+var SearchCepResultPage = require('../pages/SearchCepResultPage.js');
 
 describe('Cenarios de busca por CEP', function() {
 
     var page;
+    var resultPage;
     
     beforeEach(function() {
         page = new SearchCepPage();
         page.get();
+        resultPage = new SearchCepResultPage();
+        resultPage.get();
     })
 
     it('Deve informar o endereco', function() {
@@ -18,7 +22,7 @@ describe('Cenarios de busca por CEP', function() {
 
     it('Endereco invalido', function() {
         page.invalidAddress();
-        expect(page.invalidAddressMessage()).toEqual('DADOS NAO ENCONTRADOS');
+        expect(paresultPage.errorMessage()).toEqual('DADOS NAO ENCONTRADOS');
     })
 
 });

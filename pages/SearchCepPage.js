@@ -4,8 +4,8 @@ var SearchCepPage = function() {
 
     var searchButton = element(by.css('input[type="submit"]'));
 
-    function fillByName(name) {
-        element(by.name(name)).sendKeys(xxxxxxx);
+    function fillByName(name, text) {
+        element(by.name(name)).sendKeys(text);
     }
 
     this.get = function() {
@@ -22,7 +22,8 @@ var SearchCepPage = function() {
     }
 
     this.invalidAddress = function() {
-
+        fillByName('relaxation', 'xxxxx');
+        searchButton.click();
     }
 
 }
