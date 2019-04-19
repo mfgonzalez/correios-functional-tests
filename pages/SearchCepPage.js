@@ -18,7 +18,7 @@ var SearchCepPage = function() {
     }
 
     this.invalidAddress = function() {
-        element(by.xpath('//input[@name="relaxation"]')).sendKeys("xxxxx");
+        element(by.name('relaxation')).sendKeys("xxxxx");
         searchButton.click();
     }
 
