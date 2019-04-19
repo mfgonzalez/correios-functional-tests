@@ -1,6 +1,6 @@
 'use strict';
 
-var SearchCepPage = function() {
+var SearchCepAddressPage = function() {
 
     var searchButton = element(by.css('input[type="submit"]'));
 
@@ -23,4 +23,4 @@ var SearchCepPage = function() {
     }
 
 }
-module.exports = SearchCepPage;
+module.exports = SearchCepAddressPage;

@@ -1,6 +1,6 @@
 'use strict';
 
-var SearchCepResultPage = function() {
+var SearchCepAddressResultPage = function() {
 
     this.get = function() {
         browser.waitForAngularEnabled(false);
@@ -12,4 +12,4 @@ var SearchCepResultPage = function() {
     }
 
 }
-module.exports = SearchCepResultPage;
+module.exports = SearchCepAddressResultPage;
