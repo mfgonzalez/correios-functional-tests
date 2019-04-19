@@ -1,6 +1,8 @@
 # correios-functional-tests
 Trabalho final da disciplina de Qualidade de Software pós Unirriter
 
+https://travis-ci.org/mfgonzalez/correios-functional-tests.svg?branch=master
+
 Cenários:
 
 Teste 1 - Busca CEP ou Endereço sem nenhuma informação
