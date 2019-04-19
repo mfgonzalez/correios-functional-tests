@@ -4,11 +4,6 @@ var SearchCepPage = function() {
 
     var searchButton = element(by.css('input[type="submit"]'));
 
-    function fillByName(name, text) {
-        var input = element(by.name(name));
-        input.sendKeys(text);
-    }
-
     this.get = function() {
         browser.waitForAngularEnabled(false);
         browser.get('http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm');
@@ -23,8 +18,8 @@ var SearchCepPage = function() {
     }
 
     this.invalidAddress = function() {
-        // fillByName('relaxation', 'xxxxx');
-        element(by.name('relaxation')).sendKeys("xxxxx");
+
+        element(by.xpath('//document/Geral/relaxation')).sendKeys("xxxxx");
         searchButton.click();
     }
 
