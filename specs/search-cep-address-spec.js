@@ -15,10 +15,10 @@ describe('Cenarios de busca por CEP', function() {
         // resultPage.get();
     })
 
-    it('Deve informar o endereco', function() {
-        page.emptySearch();
-        expect(page.mandatoryAddressMessage()).toEqual('Informe o Endere\u00E7o !');
-    })
+    // it('Deve informar o endereco', function() {
+    //     page.emptySearch();
+    //     expect(page.mandatoryAddressMessage()).toEqual('Informe o Endere\u00E7o !');
+    // })
 
     // it('Endereco invalido', function() {
     //     page.invalidAddress();

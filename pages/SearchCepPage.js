@@ -26,5 +26,11 @@ var SearchCepPage = function() {
         return browser.driver.switchTo().alert().getText();
     }
 
+    this.ufCity = function() {
+        element(by.cssContainingText('option', 'RS')).click();
+        element(by.name('Localidade')).sendKeys("Porto Alegre");
+        searchButton.click();
+    }
+
 }
 module.exports = SearchCepPage;
