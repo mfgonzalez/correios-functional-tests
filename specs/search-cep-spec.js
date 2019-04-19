@@ -11,10 +11,10 @@ describe('Cenarios de busca por Localidade | Logradouro', function() {
         page.get();
     })
 
-    it('Deve informar UF', function() {
-        page.emptySearch();
-        expect(page.mandatoryUFMessage()).toEqual('Selecione a UF !');
-    })
+    // it('Deve informar UF', function() {
+    //     page.emptySearch();
+    //     expect(page.mandatoryUFMessage()).toEqual('Selecione a UF !');
+    // })
 
     it('Deve informar cidade, municipio, distrito ou povoado', function() {
         page.onlyUf();
