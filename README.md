@@ -1,7 +1,7 @@
 # correios-functional-tests
 Trabalho final da disciplina de Qualidade de Software pós Unirriter
 
-https://travis-ci.org/mfgonzalez/correios-functional-tests.svg?branch=master
+[![Build Status](https://travis-ci.org/mfgonzalez/correios-functional-tests.svg?branch=master)](https://travis-ci.org/mfgonzalez/correios-functional-tests)
 
 Cenários:
 
