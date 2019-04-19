@@ -9,6 +9,10 @@ var SearchCepPage = function() {
         browser.get('http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCep.cfm');
     }
     
+    this.restartBrowser = function(){
+        browser.restart();
+    }
+
     this.emptySearch = function() {
         searchButton.click();
     }

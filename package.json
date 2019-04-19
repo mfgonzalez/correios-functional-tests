@@ -1,11 +1,12 @@
-
 {
   "name": "protractor",
   "version": "1.0.0",
   "description": "",
   "main": "conf.js",
   "dependencies": {
-    "jasmine-reporters": "^2.2.1",
+    "eslint": "^5.16.0",
+    "jasmine": "^3.4.0",
+    "jasmine-reporters": "^2.3.2",
     "protractor": "^5.2.0"
   },
   "scripts": {
