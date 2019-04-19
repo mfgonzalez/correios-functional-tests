@@ -14,9 +14,12 @@ var SearchCepPage = function() {
     }
 
     this.mandatoryAddressMessage = function() {
-        var ptor = protractor.getInstance();
-        var alertDialog = ptor.switchTo().alert();
-        return alertDialog.getText();
+        browser.switchTo().alert().then((alert) => {
+            return alert.getText()
+        })
+        // var ptor = protractor.getInstance();
+        // var alertDialog = ptor.switchTo().alert();
+        // return alertDialog.getText();
     }
 
 }
