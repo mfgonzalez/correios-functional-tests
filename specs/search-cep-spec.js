@@ -1,7 +1,7 @@
 'use strict';
-var SearchCepPage = require('../pages/BuscaCepEnderecoPage');
+var SearchCepPage = require('../pages/SearchCepPage.js');
 
-describe('Cearios de busca por CEP', function() {
+describe('Cenarios de busca por CEP', function() {
 
     var page;
     
