@@ -4,6 +4,10 @@ var SearchCepPage = function() {
 
     var searchButton = element(by.css('input[type="submit"]'));
 
+    function fillByName(name) {
+        element(by.name(name)).sendKeys(xxxxxxx);
+    }
+
     this.get = function() {
         browser.waitForAngularEnabled(false);
         browser.get('http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm');
@@ -15,12 +19,10 @@ var SearchCepPage = function() {
 
     this.mandatoryAddressMessage = function() {
         return browser.driver.switchTo().alert().getText();
-        // browser.switchTo().alert().then((alert) => {
-        //     return browser.wait(alert.getText(), 5000);
-        // })
-        // var ptor = protractor.getInstance();
-        // var alertDialog = ptor.switchTo().alert();
-        // return alertDialog.getText();
+    }
+
+    this.invalidAddress = function() {
+
     }
 
 }
