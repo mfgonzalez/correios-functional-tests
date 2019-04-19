@@ -13,7 +13,7 @@ var SearchCepPage = function() {
         searchButton.click();
     }
 
-    this.mandatoryAddressMessage = function() {
+    this.mandatoryUFMessage = function() {
         return browser.driver.switchTo().alert().getText();
     }
 

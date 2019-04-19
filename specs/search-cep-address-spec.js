@@ -1,18 +1,18 @@
 'use strict';
 
 var SearchCepAddressPage = require('../pages/SearchCepAddressPage.js');
-var SearchCepAddressResultPage = require('../pages/SearchCepAddressResultPage.js');
+// var SearchCepAddressResultPage = require('../pages/SearchCepAddressResultPage.js');
 
 describe('Cenarios de busca por CEP', function() {
 
     var page;
-    var resultPage;
+    // var resultPage;
     
     beforeEach(function() {
         page = new SearchCepAddressPage();
         page.get();
-        resultPage = new SearchCepAddressResultPage();
-        resultPage.get();
+        // resultPage = new SearchCepAddressResultPage();
+        // resultPage.get();
     })
 
     it('Deve informar o endereco', function() {

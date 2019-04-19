@@ -11,7 +11,7 @@ describe('Cenarios de busca por Localidade | Logradouro', function() {
         page.get();
     })
 
-    it('Deve informar o endereco', function() {
+    it('Deve informar UF', function() {
         page.emptySearch();
         expect(page.mandatoryUFMessage()).toEqual('Selecione a UF !');
     })
