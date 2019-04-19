@@ -1,7 +1,7 @@
 'use strict';
 
-var SearchCepAddressPage = require('../pages/SearchCepAddressPage.js/index.js');
-var SearchCepAddressResultPage = require('../pages/SearchCepAddressResultPage.js/index.js');
+var SearchCepAddressPage = require('../pages/SearchCepAddressPage.js');
+var SearchCepAddressResultPage = require('../pages/SearchCepAddressResultPage.js');
 
 describe('Cenarios de busca por CEP', function() {
 
