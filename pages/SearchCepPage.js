@@ -17,5 +17,14 @@ var SearchCepPage = function() {
         return browser.driver.switchTo().alert().getText();
     }
 
+    this.onlyUf = function() {
+        element(by.cssContainingText('option', 'RS')).click();
+        searchButton.click();
+    }
+
+    this.mandatoryCityDistrictMessage = function() {
+        return browser.driver.switchTo().alert().getText();
+    }
+
 }
 module.exports = SearchCepPage;
