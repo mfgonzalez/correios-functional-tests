@@ -1,6 +1,8 @@
 # correios-functional-tests
 Trabalho final da disciplina de Qualidade de Software pós Unirriter
 
+Cenários:
+
 Teste 1 - Busca CEP ou Endereço sem nenhuma informação
 Acessar o http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm, não preencher nenhuma informação e selecionar o botão buscar.
 Será mostrada a seguinte mensagem: "Informe o endereço !"
