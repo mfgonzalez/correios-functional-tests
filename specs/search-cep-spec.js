@@ -16,10 +16,10 @@ describe('Cenarios de busca por Localidade | Logradouro', function() {
     //     expect(page.mandatoryUFMessage()).toEqual('Selecione a UF !');
     // })
 
-    it('Deve informar cidade, municipio, distrito ou povoado', function() {
-        page.onlyUf();
-        expect(page.mandatoryCityDistrictMessage()).toEqual('Informe o nome da cidade, munic\u00EDpio, distrito ou povoado !');
-    })
+    // it('Deve informar cidade, municipio, distrito ou povoado', function() {
+    //     page.onlyUf();
+    //     expect(page.mandatoryCityDistrictMessage()).toEqual('Informe o nome da cidade, munic\u00EDpio, distrito ou povoado !');
+    // })
 
     it('Deve informar o logradouro', function() {
         page.ufCity();
