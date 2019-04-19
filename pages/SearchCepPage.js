@@ -24,8 +24,7 @@ var SearchCepPage = function() {
 
     this.invalidAddress = function() {
         // fillByName('relaxation', 'xxxxx');
-        var input = element(by.name('relaxation'));
-        input.sendKeys('xxxxx');
+        element(by.name('relaxation')).sendKeys("xxxxx");
         searchButton.click();
     }
 
