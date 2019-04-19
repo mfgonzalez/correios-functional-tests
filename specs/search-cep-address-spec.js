@@ -20,9 +20,9 @@ describe('Cenarios de busca por CEP', function() {
         expect(page.mandatoryAddressMessage()).toEqual('Informe o Endere\u00E7o !');
     })
 
-    it('Endereco invalido', function() {
-        page.invalidAddress();
-        expect(resultPage.errorMessage()).toEqual('DADOS NAO ENCONTRADOS');
-    })
+    // it('Endereco invalido', function() {
+    //     page.invalidAddress();
+    //     expect(resultPage.errorMessage()).toEqual('DADOS NAO ENCONTRADOS');
+    // })
 
 });
