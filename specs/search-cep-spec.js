@@ -22,7 +22,7 @@ describe('Cenarios de busca por CEP', function() {
 
     it('Endereco invalido', function() {
         page.invalidAddress();
-        expect(paresultPage.errorMessage()).toEqual('DADOS NAO ENCONTRADOS');
+        expect(resultPage.errorMessage()).toEqual('DADOS NAO ENCONTRADOS');
     })
 
 });
