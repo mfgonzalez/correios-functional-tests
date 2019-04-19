@@ -15,7 +15,7 @@ var SearchCepPage = function() {
 
     this.mandatoryAddressMessage = function() {
         browser.switchTo().alert().then((alert) => {
-            return alert.getText()
+            return browser.wait(alert.getText(), 5000);
         })
         // var ptor = protractor.getInstance();
         // var alertDialog = ptor.switchTo().alert();
