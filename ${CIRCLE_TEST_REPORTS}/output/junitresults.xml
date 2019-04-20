@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="8" time="23.509">
- <testsuite name="Cenarios de busca por CEP" timestamp="2019-04-19T22:19:26" hostname="localhost" time="10.345" errors="0" tests="5" skipped="0" disabled="0" failures="0">
-  <testcase classname="Cenarios de busca por CEP" name="Deve informar o endereco" time="4.45" />
-  <testcase classname="Cenarios de busca por CEP" name="Endereco invalido" time="2.064" />
-  <testcase classname="Cenarios de busca por CEP" name="Endereco valido com opcao todos" time="1.414" />
-  <testcase classname="Cenarios de busca por CEP" name="Endereco valido e opção &quot;Unidade Operacional" time="1.152" />
-  <testcase classname="Cenarios de busca por CEP" name="Endereço por CEP valido" time="1.264" />
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="22.874">
+ <testsuite name="Cenarios de busca por CEP" timestamp="2019-04-20T18:58:12" hostname="localhost" time="6.449" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Cenarios de busca por CEP" name="Deve informar o endereco" time="3.494" />
+  <testcase classname="Cenarios de busca por CEP" name="Endereco invalido" time="1.136" />
+  <testcase classname="Cenarios de busca por CEP" name="Endereco valido com opcao todos" time="0.621" />
+  <testcase classname="Cenarios de busca por CEP" name="Endereco valido e opção &quot;Unidade Operacional" time="0.656" />
+  <testcase classname="Cenarios de busca por CEP" name="Endereço por CEP valido" time="0.539" />
  </testsuite>
- <testsuite name="Cenarios de busca por Localidade | Logradouro" timestamp="2019-04-19T22:19:37" hostname="localhost" time="13.164" errors="0" tests="3" skipped="0" disabled="0" failures="0">
-  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Deve informar UF" time="3.774" />
-  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Deve informar cidade, municipio, distrito ou povoado" time="4.735" />
-  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Deve informar o logradouro" time="4.655" />
+ <testsuite name="Cenarios de busca por Localidade | Logradouro" timestamp="2019-04-20T18:58:18" hostname="localhost" time="11.965" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Deve informar UF" time="2.859" />
+  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Deve informar cidade, municipio, distrito ou povoado" time="3.64" />
+  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Deve informar o logradouro" time="3.673" />
+  <testcase classname="Cenarios de busca por Localidade | Logradouro" name="Pesquisar usando logradrou completo" time="1.792" />
+ </testsuite>
+ <testsuite name="Cenarios de Rastreamento de pacotes" timestamp="2019-04-20T18:58:30" hostname="localhost" time="4.46" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Cenarios de Rastreamento de pacotes" name="Deve informar Codigo de Rastreio" time="2.562" />
+  <testcase classname="Cenarios de Rastreamento de pacotes" name="Deve informar codigo de rastreio invalido" time="0.893" />
+  <testcase classname="Cenarios de Rastreamento de pacotes" name="Deve informar codigo de rastreio valido" time="1.005" />
  </testsuite>
 </testsuites>

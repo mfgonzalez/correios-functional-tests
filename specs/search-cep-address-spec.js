@@ -43,5 +43,4 @@ describe('Cenarios de busca por CEP', function() {
         page.validCepWithOptionOperationAll();
         expect(element(by.className('ctrlcontent')).getText()).toContain('1 a 1 de 1');
     });
-
 });
