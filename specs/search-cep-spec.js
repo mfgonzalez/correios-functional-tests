@@ -26,8 +26,8 @@ describe('Cenarios de busca por Localidade | Logradouro', function() {
     it('Deve informar o logradouro', function() {
         page.ufCity();
         expect(page.mandatoryAddress()).toEqual('Informe o logradouro !');
+        page.restartBrowser();
     })
-
+    
     //Informe o logradouro !
-
 }); 

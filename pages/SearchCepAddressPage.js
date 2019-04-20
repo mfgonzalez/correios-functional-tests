@@ -22,5 +22,23 @@ var SearchCepAddressPage = function() {
         searchButton.click();
     }
 
+    this.validAddressWithOptionAll = function() {
+        element(by.name('relaxation')).sendKeys("Avenida Saturnino de Brito, Porto Alegre");
+        searchButton.click();
+    }
+
+    this.validAddressWithOptionOperationUnit = function() {
+        element(by.name('relaxation')).sendKeys("Avenida Saturnino de Brito, Porto Alegre");
+
+        element.all(by.tagName('option')).then(function(options){
+          options[4].click();
+        });
+        searchButton.click();
+    }
+
+    this.validCepWithOptionOperationAll = function() {
+        element(by.name('relaxation')).sendKeys("91320000");
+        searchButton.click();
+    }
 }
 module.exports = SearchCepAddressPage;
